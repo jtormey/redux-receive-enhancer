@@ -1,5 +1,5 @@
 {
-  "name": "redux-receive",
+  "name": "redux-receive-enhancer",
   "version": "1.0.0",
   "description": "Receive store enhancer",
   "main": "index.js",
