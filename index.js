@@ -15,7 +15,8 @@ module.exports = (createStore) => (...args) => {
 
     let remove = () => {
       clearTimeout(timer)
-      receivers.splice(0, receivers.indexOf(linked))
+      let index = receivers.indexOf(linked)
+      if (index > -1) receivers.splice(index, 1)
     }
 
     Object.keys(types).forEach(t => {
