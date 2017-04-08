@@ -40,3 +40,7 @@ Takes an object mapping action types to functions and returns a Promise. When an
 `timeout :: (Int, a -> b)`
 
 A `timeout` property can be added to `types` to specify how long `receive` should wait for an action. It should be an array, the first element is the time in milliseconds for the timeout, the second is optional and is a function that will be called to determine what the returned promise should resolve with (by default, it will reject the promise with `Error('TIMEOUT')`).
+
+## Disclaimer
+
+If you find this enhancer useful, you may not be using redux correctly.
