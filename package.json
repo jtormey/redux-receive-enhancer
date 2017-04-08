@@ -11,5 +11,8 @@
     "react"
   ],
   "author": "Justin Tormey <jrtormey@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "standard": "~10.0.1"
+  }
 }
