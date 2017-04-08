@@ -1,7 +1,7 @@
 {
   "name": "redux-receive-enhancer",
   "version": "1.0.0",
-  "description": "Receive store enhancer",
+  "description": "A store enhancer for receiving a future redux action as a promise.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
